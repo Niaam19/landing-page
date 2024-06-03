@@ -1,0 +1,108 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(245, 115, 180);
+}
+
+div {
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header { 
+    background-color: rgb(172, 164, 164);
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    color: honeydew;
+}
+
+.nav {
+    background-color: rgb(22, 18, 20);
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: indianred;
+}
+
+.nav ul li a:hover {
+    color: antiquewhite;
+}
+.main {
+    display: flex;
+    background-color: salmon;
+    border-radius: 10px;
+}
+.content {
+
+    width: 100%;
+    margin: 0;
+    background-color: wheat;
+    padding: 20px;
+}
+
+
+.content .artikel {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: rgb(255, 146, 213);
+    border-radius: 2px;
+    border: 2px solid pink;
+    padding: 10px;
+    line-height: 1.6em;
+}
+.content .artikel .read {
+    color: black;
+    border: 1px solid rgb(190, 183, 183);
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content .artikel .read a {
+    color: black;
+}
+
+
+.sidebar {
+    justify-content: left;
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 40%;
+    margin: 0;
+    padding: 20px;
+}
+
+.sidebar h4 {
+    text-align: left;
+
+}
+
+.sidebar ul li {
+    list-style: none;
+    line-height: 3em;
+
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer {
+    background-color: bisque;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
